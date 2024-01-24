@@ -13,7 +13,7 @@ function Footer() {
       }, []);
 
   return (
-    <div>
+    <div id='Contact'>
       
 
 <footer class="bg-black pt-40 ">
