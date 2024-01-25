@@ -56,16 +56,16 @@ function Carousel() {
           skills:"Html & Bootstrap"
         },
         {
-          image: image8,
-          link: '',
-          name:"Ferrari Website Template",
-          skills:"React JS & Tailwind Css"
-        },
-        {
           image: image7,
           link: 'https://courses-website-chi.vercel.app/',
           name:"Caurses Template",
           skills:"Html & Tailwind Css"
+        },
+        {
+          image: image8,
+          link: '',
+          name:"Ferrari Website Template",
+          skills:"React JS & Tailwind Css"
         },
         
         {
