@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 
 import image from '../images/projects/gaming.png'
 import image1 from '../images/projects/honey.png'
+import image8 from '../images/projects/ferrari.png'
 import image2 from '../images/projects/travel.png'
 import image3 from '../images/projects/kanabav.png'
 import image4 from '../images/projects/quickbooks.png'
@@ -46,6 +47,14 @@ function Carousel() {
           link : "https://honey-lemon.vercel.app/",
           name:"Honey Products Template",
           skills:"Html & Tailwind Css"
+        },
+        {
+          image: image8,
+          link: '',
+          name:"Ferrari Website Template",
+          skills:"React JS & Tailwind Css"
+        },
+        {
         },
         {
           image: image5,
