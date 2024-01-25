@@ -54,8 +54,7 @@ function Carousel() {
           name:"Ferrari Website Template",
           skills:"React JS & Tailwind Css"
         },
-        {
-        },
+        
         {
           image: image5,
           link: '',
