@@ -98,8 +98,8 @@ function Skills() {
       <img src={skill.image} className='object-contain w-2/3 md:w-[40%] h-[200px]' alt="" />
       <h1 className='text-3xl text-center font-bold'>{skill.title}</h1>
       <h1 className='text-xl text-center font-semibold'>{skill.description}</h1>
-      <div className={`absolute top-1/3 left-[60%] p-10 w-[70px] h-[70px] rounded-full bg-opacity-50 border-[6px] border-${skill.Percentagecolor} bg-${skill.Percentagecolor} flex justify-center items-center`}>
-        <h1 className={`text-2xl font-bold text-${skill.Percentagecolor}`}>{skill.Percentage}</h1>
+      <div className={`absolute top-1/3 left-[60%] p-10 w-[70px] h-[70px] rounded-full bg-opacity-50 border-[6px] border-pink-600 bg-pink-600 flex justify-center items-center`}>
+        <h1 className={`text-2xl font-bold text-pink-600`}>{skill.Percentage}</h1>
       </div>
     </div>
   ))
