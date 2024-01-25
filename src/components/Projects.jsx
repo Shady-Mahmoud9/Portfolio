@@ -48,18 +48,18 @@ function Carousel() {
           name:"Honey Products Template",
           skills:"Html & Tailwind Css"
         },
-        {
-          image: image8,
-          link: '',
-          name:"Ferrari Website Template",
-          skills:"React JS & Tailwind Css"
-        },
         
         {
           image: image5,
           link: '',
           name:"Medical Website",
           skills:"Html & Bootstrap"
+        },
+        {
+          image: image8,
+          link: '',
+          name:"Ferrari Website Template",
+          skills:"React JS & Tailwind Css"
         },
         {
           image: image7,
