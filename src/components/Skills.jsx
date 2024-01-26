@@ -94,12 +94,12 @@ function Skills() {
 <div className='flex flex-col p-4 md:p-16 flex-wrap gap-10 md:flex-row   mt-40'>
 {
   skills.map((skill, index) => (
-    <div data-aos='fade-up' key={index} className={`hover:scale-105 duration-1000 cursor-pointer relative  rounded-lg p-5 w-full md:w-[45%] lg:w-[30%] mt-5 flex flex-col gap-8 items-center ${index % 2 === 0 ? 'bg-white' : 'bg-orange-600'}`}>
+    <div data-aos='fade-up' key={index} className={`  cursor-pointer relative  rounded-lg p-5 w-full md:w-[45%] lg:w-[30%] mt-5 flex flex-col gap-8 items-center ${index % 2 === 0 ? 'bg-white' : 'bg-orange-600'}`}>
       <img src={skill.image} className='object-contain w-2/3 md:w-[40%] h-[200px]' alt="" />
       <h1 className='text-3xl text-center font-bold'>{skill.title}</h1>
-      <h1 className='text-xl text-center font-semibold'>{skill.description}</h1>
-      <div className={`absolute top-1/3 left-[60%] p-10 w-[70px] h-[70px] rounded-full bg-opacity-50 border-[6px] border-${skill.Percentagecolor} bg-${skill.Percentagecolor} flex justify-center items-center`}>
-        <h1 className={`text-2xl font-bold text-${skill.Percentagecolor}`}>{skill.Percentage}</h1>
+      <h1 className={`text-xl text-center font-semibold ${index%2 ===0 ? 'text-orange-600':'text-white'}`}>{skill.description}</h1>
+      <div className={`absolute top-1/3 left-[60%] p-10 w-[70px] h-[70px] rounded-full bg-opacity-50 border-[6px] ${index % 2 === 0 ? ' border-orange-600' : ' border-white'}  ${index % 2 === 0 ? ' bg-orange-600' : ' bg-white'} flex justify-center items-center`}>
+        <h1 className={`text-2xl font-bold ${index % 2 === 0 ? 'text-white' : 'text-orange-600'}`}>{skill.Percentage}</h1>
       </div>
     </div>
   ))

@@ -63,14 +63,14 @@ function Carousel() {
         },
         {
           image: image8,
-          link: '',
+          link: 'https://ferrari-eight.vercel.app/',
           name:"Ferrari Website Template",
           skills:"React JS & Tailwind Css"
         },
         
         {
           image: image3,
-          link: '',
+          link: 'https://shady-mahmoud.vercel.app/sofa/ui%20ux%202.html',
           name:"Furniture Template ",
           skills:"Html & Bootstrap"
         },
@@ -96,24 +96,25 @@ function Carousel() {
         
         {
           image: js2,
-         
+          link:"https://shady-mahmoud.vercel.app/js%20projects/xo%20game/xo%20gameee.html",
           name:"XO Game",
           skills:"HTML & CSS & JS"
         },
         {
           image: js1,
+          link:"https://shady-mahmoud.vercel.app/js%20projects/QR/qr.html",
           name:"QR Generator",
           skills:"HTML & CSS & JS"
         },
         {
           image: js3,
-          
+          link:"https://shady-mahmoud.vercel.app/js%20projects/calculater/calculater.html",
           name:"Calculater",
           skills:"HTML & CSS & JS"
         },
         {
           image: js5,
-          
+          link:"https://shady-mahmoud.vercel.app/js%20projects/biano/biano.html",
           name:"Biano",
           skills:"HTML & CSS & JS"
         },
