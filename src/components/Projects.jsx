@@ -123,7 +123,7 @@ function Carousel() {
           image: js4,
           
           name:"Game",
-          skills:"HTML & CSS & JS"
+          skills:"HTML & CSS & JS" 
         },
         {
           image: js6,
