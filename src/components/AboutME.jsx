@@ -35,9 +35,9 @@ to My Social Media Accounts to Contact with me if you need Developer. `
     
     <div id='AboutME' className='bg-black pt-60'>
      
-     <div className='flex gap-10 flex-col items-center md:flex-row p-10'>
+     <div className='flex gap-10 flex-col items-center md:flex-row P-2 MD:p-10'>
         <div data-aos='fade-right' className='md:w-[40%]  w-full'>
-            <img className='w-full object-cover h-[450px] md:h-[500px] lg:h-[600px]' src={think} alt="" />
+            <img className='w-full  h-[450px] md:h-[500px] lg:h-[600px]' src={think} alt="" />
         </div>
         <div data-aos='flip-up' className='md:w-1/2 w-full p-2 md:p-10 border-orange-600 shadow-orange-600 shadow-lg border-2 rounded-lg '>
           <h1 className='text-orange-600 text-4xl  lg:text-5xl font-bold mb-5 text-center'>About Me</h1>
