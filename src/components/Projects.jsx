@@ -127,7 +127,7 @@ function Carousel() {
         },
         {
           image: js6,
-          link:"  https://weather-app-ten-beta-37.vercel.app/",
+          link:"https://weather-app-ten-beta-37.vercel.app/",
           name:"Weather App",
           skills:"React js "
         },
