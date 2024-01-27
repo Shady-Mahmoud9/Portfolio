@@ -159,7 +159,7 @@ function Carousel() {
     <div  className=' flex flex-col gap-20 items-center justify-center md:flex-col flex-wrap lg:flex-row pt-40 p-5'>
          {
           slides.map((project,index)=>(
-            <div data-aos="zoom-in" data-aos-duration='1600'  className={`hover:scale-105 duration-1000 ${index % 2 === 0  ? 'bg-orange-600' : 'bg-white'}   gap-7 rounded-lg w-full md:w-2/3 lg:w-[35%] h-full flex flex-col ${index % 2 === 0  ? 'mt-0':'mt-32'}`}>
+            <div data-aos="zoom-in" data-aos-duration='1600'  className={` ${index % 2 === 0  ? 'bg-orange-600' : 'bg-white'}   gap-7 rounded-lg w-full md:w-2/3 lg:w-[35%] h-full flex flex-col ${index % 2 === 0  ? 'mt-0':'mt-32'}`}>
             <img src={project.image} className=' p-5 shadow-lg rounded-lg h-1/3 md:h-[350px] hover:opacity-90 cursor-pointer' alt="" />
             <div className='flex flex-col md:flex-row justify-between p-5 items-start md:items-center'>
               <div className='flex flex-col gap-2 md:gap-5'>
