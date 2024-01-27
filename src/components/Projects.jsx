@@ -21,6 +21,7 @@ import js3 from '../images/projects/calculater.png'
 // import js4 from '../images/projects/Game.png'
 import js5 from '../images/projects/BIANO.png'
 import js6 from '../images/projects/weather.png'
+import js7 from '../images/projects/to do list.png'
 
 
 function Carousel() {
@@ -129,6 +130,12 @@ function Carousel() {
           image: js6,
           link:"https://weather-app-ten-beta-37.vercel.app/",
           name:"Weather App",
+          skills:"React js "
+        },
+        {
+          image: js7,
+          link:"https://to-do-list-delta-ecru.vercel.app/",
+          name:"To Do List",
           skills:"React js "
         },
         
