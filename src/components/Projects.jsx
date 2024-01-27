@@ -18,7 +18,7 @@ import image7 from '../images/projects/courses.png'
 import js1 from '../images/projects/QR.png'
 import js2 from '../images/projects/XO.png'
 import js3 from '../images/projects/calculater.png'
-import js4 from '../images/projects/Game.png'
+// import js4 from '../images/projects/Game.png'
 import js5 from '../images/projects/BIANO.png'
 import js6 from '../images/projects/weather.png'
 
@@ -119,12 +119,12 @@ function Carousel() {
           name:"Biano",
           skills:"HTML & CSS & JS"
         },
-        {
-          image: js4,
+        // {
+        //   image: js4,
           
-          name:"Game",
-          skills:"HTML & CSS & JS" 
-        },
+        //   name:"Game",
+        //   skills:"HTML & CSS & JS" 
+        // },
         {
           image: js6,
           link:"https://weather-app-ten-beta-37.vercel.app/",
