@@ -22,6 +22,7 @@ import js3 from '../images/projects/calculater.png'
 import js5 from '../images/projects/BIANO.png'
 import js6 from '../images/projects/weather.png'
 import js7 from '../images/projects/to do list.png'
+import js8 from '../images/projects/timer.png'
 
 
 function Carousel() {
@@ -136,6 +137,12 @@ function Carousel() {
           image: js7,
           link:"https://to-do-list-delta-ecru.vercel.app/",
           name:"To Do List",
+          skills:"React js "
+        },
+        {
+          image: js8,
+          link:"https://stop-watch-phi-inky.vercel.app/",
+          name:"Stop Watch",
           skills:"React js "
         },
         
