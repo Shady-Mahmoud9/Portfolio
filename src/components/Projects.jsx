@@ -134,18 +134,18 @@ function Carousel() {
           skills:"React js "
         },
         {
-          image: js7,
-          link:"https://to-do-list-delta-ecru.vercel.app/",
-          name:"To Do List",
-          skills:"React js "
-        },
-        {
           image: js8,
           link:"https://stop-watch-phi-inky.vercel.app/",
           name:"Stop Watch",
           skills:"React js "
         },
         
+        {
+          image: js7,
+          link:"https://to-do-list-delta-ecru.vercel.app/",
+          name:"To Do List",
+          skills:"React js "
+        },
       ];
       
    
